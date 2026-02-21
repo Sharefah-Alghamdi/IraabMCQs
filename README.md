@@ -13,7 +13,7 @@ This repository contains the benchmark dataset, evaluation framework, and result
 
 Arabic *Iraab* (الإعراب) refers to the system of grammatical case markings where word endings change to indicate syntactic function within a sentence. It is a morphologically complex task that poses significant challenges even for advanced NLP systems.
 
-We designed a **Multiple-Choice Question (MCQ) framework** to systematically evaluate LLM performance across key grammatical dimensions and diverse Arabic text types.
+We designed **IraabMCQs**, a Multiple-Choice Question (MCQ) framework to systematically evaluate LLM performance across key grammatical dimensions and diverse Arabic text types.
 
 ---
 

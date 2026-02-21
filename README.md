@@ -1,7 +1,6 @@
 # Evaluating the Grammatical Iraab Capabilities of Large Language Models in Arabic
 
-[![IEEE ICMI 2026](https://img.shields.io/badge/IEEE%20ICMI-2026-blue)](https://www.icmi.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![IEEE ICMI 2026](https://www.icmiconf.com/index.html)
 
 > **Accepted at:** IEEE 5th International Conference on Computing and Machine Intelligence (ICMI 2026)  
 > **Date:** April 08–10, 2026 | King Faisal University, Al-Ahsa, Saudi Arabia (Hybrid)

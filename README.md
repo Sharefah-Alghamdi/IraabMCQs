@@ -104,38 +104,15 @@ Three MCQs with four answer options (A/B/C/D) were generated per word, yielding 
 - **Claude** performed best on poetic and Quranic verses relative to its own scores, but lowest on general prose (65.56%).
 - **Cohere** showed limited proficiency across all categories, indicating significant challenges in Arabic morphosyntactic processing.
 
----
-
-## ⚙️ Evaluation Framework
-
-The evaluation was conducted using a unified Python script that queried each model's API with the exact same 536 MCQs, ensuring strict comparability. Non-conforming responses (i.e., answers outside A/B/C/D) were flagged as invalid.
-
-### Requirements
-
-```bash
-pip install openai anthropic google-generativeai cohere requests pandas openpyxl
-```
-
-### Running the Evaluation
-
-```bash
-python evaluation/eval_framework.py \
-  --model gemini \
-  --api-key YOUR_API_KEY \
-  --questions data/mcqs/iraab_mcqs.json \
-  --output results/raw/gemini_responses.json
-```
-
----
 
 ## 📝 Citation
 
 If you use this dataset or evaluation framework in your research, please cite:
 
 ```bibtex
-@inproceedings{alghamdi2026iraab,
+@inproceedings{iraabMCQs,
   title     = {Evaluating the Grammatical Iraab Capabilities of Large Language Models in Arabic},
-  author    = {AlGhamdi, Sharefah and AlKhaluqi, Razan},
+  author    = {AlKhaluqi, Razan and AlGhamdi, Sharefah},
   booktitle = {Proceedings of the IEEE 5th International Conference on Computing and Machine Intelligence (ICMI)},
   year      = {2026},
   address   = {Al-Ahsa, Saudi Arabia},
@@ -146,23 +123,11 @@ If you use this dataset or evaluation framework in your research, please cite:
 ---
 
 ## 👩‍💻 Authors
+- **Razan AlKhaluqi** — Department of Information Technology, King Saud University, Riyadh, Saudi Arabia  
+  📧 443204373@student.ksu.edu.sa
 
 - **Sharefah AlGhamdi** — Department of Information Technology, King Saud University, Riyadh, Saudi Arabia  
   📧 sharefah@ksu.edu.sa
 
-- **Razan AlKhaluqi** — Department of Information Technology, King Saud University, Riyadh, Saudi Arabia  
-  📧 443204373@student.ksu.edu.sa
 
----
 
-## 🔮 Future Work
-
-- Expanding the benchmark to a larger and more diverse set of annotated Arabic sentences
-- Evaluating native Arabic LLMs including **Jais**, **Fanar**, and **ALLaM**
-- Exploring fine-tuning strategies for morphological Arabic understanding
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
